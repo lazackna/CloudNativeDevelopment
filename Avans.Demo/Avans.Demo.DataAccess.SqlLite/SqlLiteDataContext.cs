@@ -16,7 +16,7 @@ namespace Avans.Demo.DataAccess.SqlLite
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            _dbPath = Path.Join(path, "avansDemo.db");
+            _dbPath = Path.Join(path, "GamesDatabase.db");
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

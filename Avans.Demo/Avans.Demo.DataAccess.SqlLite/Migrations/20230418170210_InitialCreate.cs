@@ -24,6 +24,22 @@ namespace Avans.Demo.DataAccess.SqlLite.Migrations
                 {
                     table.PrimaryKey("PK_Books", x => x.ISBN);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Games",
+                columns: table => new
+                {
+                    Title = table.Column<string>(type: "TEXT", nullable: false),
+                    ReleaseDate = table.Column<string>(type: "TEXT", nullable: false),
+                    Team = table.Column<string>(type: "TEXT", nullable: false),
+                    Rating = table.Column<string>(type: "REAL", nullable: false),
+                    Genre = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GAMES", x => x.Title);
+                }
+                );
         }
 
         /// <inheritdoc />
@@ -31,6 +47,8 @@ namespace Avans.Demo.DataAccess.SqlLite.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Books");
+            migrationBuilder.DropTable(
+                name: "Games");
         }
     }
 }

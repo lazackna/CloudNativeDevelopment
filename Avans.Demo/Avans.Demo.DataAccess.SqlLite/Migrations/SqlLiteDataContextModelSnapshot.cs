@@ -39,6 +39,19 @@ namespace Avans.Demo.DataAccess.SqlLite.Migrations
 
                     b.ToTable("Books");
                 });
+
+            modelBuilder.Entity("Avans.Demo.DataAccess.Entities.Book", g =>
+            {
+                g.Property<string>("Title").HasColumnType("Text");
+                g.Property<string>("ReleaseDate").HasColumnType("Text");
+                g.Property<string>("Team").HasColumnType("Text");
+                g.Property<double>("Rating").HasColumnType("REAL");
+                g.Property<string>("Genre").HasColumnType("Text");
+
+                g.HasKey("Title");
+
+                g.ToTable("Games");
+            });
 #pragma warning restore 612, 618
         }
     }

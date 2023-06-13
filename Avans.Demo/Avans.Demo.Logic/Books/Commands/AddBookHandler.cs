@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Avans.Demo.Logic.Books.Commands
 {
     /// <summary>
-    /// Implementation for <see cref="AddBookRequest"/> message.
+    /// Implementation for <see cref="AddGameRequest"/> message.
     /// Will validate and throw if the book is null or invalid.
     /// Otherwise, it will add or update into the database.
     /// </summary>
@@ -17,7 +17,7 @@ namespace Avans.Demo.Logic.Books.Commands
         private readonly DataContext _context;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="AddBookHandler"/> class.
+        /// Initializes a new instance of the <see cref="AddGameHandler"/> class.
         /// </summary>
         public AddBookHandler(DataContext context)
         {
