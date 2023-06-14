@@ -15,15 +15,12 @@ namespace Avans.Demo.DataAccess
     /// </summary>
     public abstract class DataContext : DbContext
     {
-        public DbSet<Book> Books { get; set; }
-
         public DbSet<Game> Games { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.ApplyConfiguration(new BookConfiguration());
             modelBuilder.ApplyConfiguration(new GameConfiguration());
         }
     }

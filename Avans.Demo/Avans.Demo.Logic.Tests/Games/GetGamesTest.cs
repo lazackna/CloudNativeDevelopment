@@ -69,7 +69,7 @@ namespace Avans.Demo.Logic.Tests.Games
 			
 			bool b = result.Where(g => g.Rating < 0f).Count() == 0;
 			//Assert
-			Assert.False(b);
+			Assert.True(b);
 		}
 	}
 }

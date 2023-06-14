@@ -1,6 +1,5 @@
 ﻿using Avans.Demo.DataAccess;
 using Avans.Demo.Domain;
-using Avans.Demo.Logic.Books.Queries;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
