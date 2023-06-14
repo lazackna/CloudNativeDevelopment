@@ -33,7 +33,7 @@ namespace Avans.Demo.Logic.Books.Commands
             var dbItem = await _context.Games.SingleOrDefaultAsync(b => b.Title == request.Title, cancellationToken: cancellationToken);
             if (dbItem == null)
             {
-                throw new BookNotFoundException();
+                throw new GameNotFoundException();
             }
             _context.Games.Remove(dbItem);
             await _context.SaveChangesAsync(cancellationToken);
