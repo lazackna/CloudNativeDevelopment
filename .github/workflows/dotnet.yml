@@ -33,8 +33,8 @@ jobs:
       run: dotnet test Avans.Demo/Avans.Demo.Web.Api/Avans.Demo.Web.Api.csproj --no-build --verbosity normal
 
     - name: Restore dependencies for test project
-      run: dotnet restore Avans.Demo/Avans.Demo.Logic.Tests.csproj
+      run: dotnet restore Avans.Demo/Avans.Demo.Logic.Tests/Avans.Demo.Logic.Tests.csproj
     - name: Build test project
-      run: dotnet build Avans.Demo/Avans.Demo.Logic.Tests.csproj --no-restore
+      run: dotnet build Avans.Demo/Avans.Demo.Logic.Tests/Avans.Demo.Logic.Tests.csproj --no-restore
     - name: Test test project
-      run: dotnet test Avans.Demo/Avans.Demo.Logic.Tests.csproj --no-build --verbosity normal
+      run: dotnet test Avans.Demo/Avans.Demo.Logic.Tests/Avans.Demo.Logic.Tests.csproj --no-build --verbosity normal
