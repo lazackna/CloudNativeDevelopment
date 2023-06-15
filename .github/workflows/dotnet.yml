@@ -26,8 +26,8 @@ jobs:
         dotnet-version: 7.0.x
         
     - name: Restore dependencies
-      run: dotnet restore Avans.Demo/CloudNative.sln
+      run: dotnet restore Avans.Demo/Avans.Demo.Web.Api/Avans.Demo.Web.Api.csproj
     - name: Build
-      run: dotnet build Avans.Demo/CloudNative.sln --no-restore
+      run: dotnet build Avans.Demo/Avans.Demo.Web.Api/Avans.Demo.Web.Api.csproj --no-restore
     - name: Test
-      run: dotnet test Avans.Demo/CloudNative.sln --no-build --verbosity normal
+      run: dotnet test Avans.Demo/Avans.Demo.Web.Api/Avans.Demo.Web.Api.csproj --no-build --verbosity normal
