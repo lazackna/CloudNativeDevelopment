@@ -20,6 +20,5 @@ jobs:
     - name: show content
       run: cat testfile.txt
       
-    - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build Avans.Demo/Avans.Demo.Web.Api --file Dockerfile --tag my-image-name:$(date +%s)
