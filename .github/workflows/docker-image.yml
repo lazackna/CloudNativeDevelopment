@@ -13,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Go to folder
-      run: cd Avans.Demo
+ 
     - uses: actions/checkout@v3
     - name: Build the Docker image
-    - run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - run: docker build ./Avans.Demo/Avans.Demo.Web.Api --file Dockerfile --tag my-image-name:$(date +%s)
