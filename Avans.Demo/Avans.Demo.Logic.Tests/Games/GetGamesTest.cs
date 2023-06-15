@@ -68,6 +68,7 @@ namespace Avans.Demo.Logic.Tests.Games
 			var result = await _mediator.Send(message);
 			
 			bool b = result.Where(g => g.Rating < 0f).Count() == 0;
+
 			//Assert
 			Assert.True(b);
 		}
