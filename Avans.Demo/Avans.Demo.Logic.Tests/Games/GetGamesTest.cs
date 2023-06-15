@@ -41,7 +41,7 @@ namespace Avans.Demo.Logic.Tests.Games
 				new Game("Omori", "02-10-2016", new string[]{"team 1", "team 2"}, 4.7, new string[]{"horror"}),
 				new Game("Mario galaxy", "08-02-2008", new string[]{"team 1", "team 2"}, 4.2, new string[]{"Adventure"})
 			});
-
+			 
 			_dbContext.SaveChanges();
 		}
 
