@@ -6,9 +6,12 @@ name: .NET
 on:
   push:
     branches: [ "master" ]
+    paths:
+    - '**.cs'
+    - '**.csproj'
   pull_request:
     branches: [ "master" ]
-
+  
 jobs:
   build:
 
