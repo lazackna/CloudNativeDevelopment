@@ -1,4 +1,8 @@
-﻿using Avans.Demo.DataAccess;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using Avans.Demo.DataAccess;
 using Avans.Demo.Domain.Exceptions;
 using Avans.Demo.Logic.Games.Commands;
 using MediatR;

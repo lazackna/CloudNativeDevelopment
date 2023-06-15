@@ -1,4 +1,8 @@
-﻿using Avans.Demo.DataAccess.Entities;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using Avans.Demo.DataAccess.Entities;
 using Avans.Demo.Domain;
 using Avans.Demo.Logic.Games.Commands;
 using Avans.Demo.Logic.Games.Queries;
@@ -7,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Avans.Demo.Web.Api.Controllers
 {
+    
     /// <inheritdoc />
     [Route("v1.0/games")]
     public class GamesController : Controller
@@ -24,6 +29,7 @@ namespace Avans.Demo.Web.Api.Controllers
         /// </summary>
         /// <param name="cancellationToken"></param>
         /// <returns>List of ApiGame</returns>
+        
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(List<ApiGame>))]
         public async Task<IActionResult> GetAllBooksAsync(CancellationToken cancellationToken)

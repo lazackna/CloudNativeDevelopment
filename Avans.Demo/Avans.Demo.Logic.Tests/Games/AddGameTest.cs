@@ -1,4 +1,8 @@
-﻿using Avans.Demo.DataAccess.InMemory;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using Avans.Demo.DataAccess.InMemory;
 using Avans.Demo.Domain;
 using Avans.Demo.Domain.Exceptions;
 using Avans.Demo.Logic.Games.Commands;

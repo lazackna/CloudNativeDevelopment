@@ -1,4 +1,8 @@
-﻿using Avans.Demo.DataAccess;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using Avans.Demo.DataAccess;
 using Avans.Demo.DataAccess.Entities;
 using Avans.Demo.DataAccess.InMemory;
 using Avans.Demo.Domain;

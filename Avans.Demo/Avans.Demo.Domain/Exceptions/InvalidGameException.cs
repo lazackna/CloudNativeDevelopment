@@ -1,4 +1,8 @@
-﻿namespace Avans.Demo.Domain.Exceptions
+﻿///
+/// Author: Jasper Baijens
+///
+
+namespace Avans.Demo.Domain.Exceptions
 {
     /// <inheritdoc />
     public class InvalidGameException : Exception

@@ -1,4 +1,8 @@
-﻿using Avans.Demo.DataAccess.Configuration;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using Avans.Demo.DataAccess.Configuration;
 using Avans.Demo.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 

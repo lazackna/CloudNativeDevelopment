@@ -4,6 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+///
+/// Author: Jasper Baijens
+///
+
 using System.Text;
 using System.Threading.Tasks;
 

@@ -27,7 +27,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Avans.Demo.DataAccess.InMemory\Avans.Demo.DataAccess.InMemory.csproj" />
     <ProjectReference Include="..\Avans.Demo.Logic\Avans.Demo.Logic.csproj" />
   </ItemGroup>
   <ItemGroup Condition="$(VisualStudioVersion) == '17.0'">

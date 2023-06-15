@@ -1,12 +1,19 @@
 ﻿using FluentValidation;
 using System;
 using System.Collections.Generic;
+///
+/// Author: Jasper Baijens
+///
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Avans.Demo.Domain.Validators
 {
+	/// <summary>
+	/// Used to validate the ApiGame entry
+	/// </summary>
 	public class ApiGameValidator : AbstractValidator<ApiGame>
 	{
 		public ApiGameValidator()

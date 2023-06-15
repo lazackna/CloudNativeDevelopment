@@ -1,4 +1,8 @@
-﻿using MediatR;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using MediatR;
 
 namespace Avans.Demo.Logic.Games.Commands
 {

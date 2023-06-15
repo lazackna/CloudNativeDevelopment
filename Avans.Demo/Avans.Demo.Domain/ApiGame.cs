@@ -1,4 +1,8 @@
-﻿using System;
+﻿///
+/// Author: Jasper Baijens
+///
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
