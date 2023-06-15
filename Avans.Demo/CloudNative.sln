@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avans.Demo.DataAccess.InMemory", "..\..\..\..\202304AvansExample\Avans.Demo\Avans.Demo.DataAccess.InMemory\Avans.Demo.DataAccess.InMemory.csproj", "{4B5F3F21-95E0-419E-8AC5-B4BA442686D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{BD8A199E-4865-40F1-808B-462D0FAFEFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD8A199E-4865-40F1-808B-462D0FAFEFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8A199E-4865-40F1-808B-462D0FAFEFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5F3F21-95E0-419E-8AC5-B4BA442686D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5F3F21-95E0-419E-8AC5-B4BA442686D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5F3F21-95E0-419E-8AC5-B4BA442686D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5F3F21-95E0-419E-8AC5-B4BA442686D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{2CCEA4C0-2CD1-47C5-8D4A-184C0A78D22E} = {C0B1C80B-014D-4692-8D5F-3FDB11DE04D9}
 		{9DC9DE60-3C47-4193-9E3D-4AE29250E9DF} = {53E40C6E-DFC1-4A32-8686-426A5D56E73C}
 		{BD8A199E-4865-40F1-808B-462D0FAFEFC8} = {53E40C6E-DFC1-4A32-8686-426A5D56E73C}
+		{4B5F3F21-95E0-419E-8AC5-B4BA442686D9} = {53E40C6E-DFC1-4A32-8686-426A5D56E73C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33D100BB-614B-4D16-AE67-D301117030E8}

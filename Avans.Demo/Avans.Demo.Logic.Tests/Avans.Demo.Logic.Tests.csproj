@@ -27,7 +27,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\202304AvansExample\Avans.Demo\Avans.Demo.DataAccess.InMemory\Avans.Demo.DataAccess.InMemory.csproj" />
     <ProjectReference Include="..\Avans.Demo.Logic\Avans.Demo.Logic.csproj" />
+    <ProjectReference Include="..\Avans.Demo.Web.Api\Avans.Demo.Web.Api.csproj" />
   </ItemGroup>
   <ItemGroup Condition="$(VisualStudioVersion) == '17.0'">
     <Reference Include="Microsoft.Data.Tools.Schema.Sql, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
