@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: go to folder
-      run: cd Avans.Demo/Avans.Demo.Web.Api
+      run: echo "$PWD$"
       
     - uses: actions/checkout@v3
     - name: Build the Docker image
